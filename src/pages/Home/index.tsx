@@ -2,10 +2,13 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
+import { Input } from "../../components/Input";
+
 const Home = () => {
   return (
     <View style={styles.container}>
       <Text>Home app!</Text>
+      <Input placeholder="Nome"/>
       <StatusBar style="auto" />
     </View>
   );
